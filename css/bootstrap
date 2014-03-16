@@ -7200,32 +7200,17 @@ td.visible-print {
 
 /******Custom Styles ***********/
 
-.right-sideNav{
-
+.contactUsHeader{
   float: right;
+  background-image: url("img/contactUs.png");
+  background-repeat: no-repeat;
+  width: 16%;
+  height: 2em;
+  vertical-align: middle;
   margin: 1em 0;
-  width: 15%;
-}
-
-.contactUsHeader {
-
-background-image: url("img/contactUs.png");
-background-repeat: no-repeat;
-width: 100%;
-font-size: 1.2em;
-border: 1px solid rgba(37,55,132,0.5);
-height: 2em;
-line-height: 2em;
-padding: 0 0 0 0.5em;
-color: rgb(37,55,132);
-float: right;
-margin: 0.4em 0 0;
-}
-.english{
-  float: right;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding: 0 0 0 0.4em;
+  border: 1px solid rgba(37,55,132,0.5);
   color: rgb(37,55,132);
-}
-.english:hover{
-  text-decoration: none;
-  color: rgba(37,55,132,0.5);
 }
