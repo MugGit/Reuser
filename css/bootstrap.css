@@ -1997,7 +1997,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 2em;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
@@ -2312,7 +2312,10 @@ textarea.input-lg {
 
 @media (min-width: 768px) {
   .form-horizontal .control-label {
-    text-align: right;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: 300;
   }
 }
 
@@ -7399,4 +7402,20 @@ footer ul{
 footer h3{
   color: rgb(37,55,132);
   text-align: center;
+}
+.contacto{
+  font-size: 1.2em;
+}
+.contacto a{
+  color: rgb(255,255,255);
+}
+.contacto a:hover{
+  color: rgba(255,255,255, 0.5);
+  text-decoration: none;
+}
+.contacto li{
+  float: left;
+}
+.glyphicon{
+  margin-right:1em;
 }
