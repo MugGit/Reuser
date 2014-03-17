@@ -7385,3 +7385,18 @@ margin: 0.4em 0 0;
   position: relative;
   top: 41%;
 }
+footer{
+  background-color: rgb(37,55,132);
+  color: rgb(255,255,255);
+  font-size: 0.8em;
+}
+
+footer ul{
+  list-style: none;
+  padding-left: 1em;
+}
+
+footer h3{
+  color: rgb(37,55,132);
+  text-align: center;
+}
