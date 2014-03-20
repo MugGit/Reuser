@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empresas del Grupo Reuser, S.L</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+      <header>
+        <div class="container">
+          <div class="col-md-10">
+            <img src="img/logoReuser.png" alt="Grupo Reuser" class="logo">
+          </div>
+          <div class="right-sideNav col-md-2">
+            <a href="" class="english">English</a>
+            <p class="contactUsHeader">91 636 99 96</p>
+          </div>
+          
+        </div>
+        
+      </header>
+
+      <!-- Nav Starts -->
+
+      <nav class="navbar">
+
+        <div class="container">
+          <ul class="nav">
+            <li class="navInicio active"><a href="http://localhost:8888/reuser/reuser/">Inicio</a></li>
+            <li class="dropdown"><a href="" title="Empresas del grupo" class="dropdown-toggle" data-toggle="dropdown">Empresas del grupo
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="">Reuser</a></li>
+              <li><a href="">Labomedical Products, S.L</a></li>
+              <li><a href="">Meditecnical Solutions, S.L</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="" title="Productos" class="dropdown-toggle" data-toggle="dropdown">Productos
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu"><a href="">División Médica</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">Farmaceuticas y Genericos
+                  <ul class="dropdown-menu">
+                    <li><a href="">División Genéricos</a></li>
+                    <li><a href="">División Esp. Farmaceuticas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Mobiliario</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Clínico</a></li>
+                <li><a href="">Geriátrico</a></li>
+                <li><a href="">Laboratorio</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Reactivos</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Reactivo1</a></li>
+                <li><a href="">Reactivo2</a></li>
+                <li><a href="">Reactivo3</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Cosmeticos</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Ceramidas E+F Plus</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </li><!End li Productos-->
+
+        <li class="dropdown"><a href="" title="Marcas" class="dropdown-toggle" data-toggle="dropdown">Marcas
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu"><a href="">División Médica</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">Farmaceuticas y Genericos
+                  <ul class="dropdown-menu">
+                    <li><a href="">Marca 1</a></li>
+                    <li><a href="">Marca 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>    
+        <li class="navContacto"><a href="">Contacto</a></li>
+      </ul><!--End Ul Nav-->
+    </div><!--End container-->
+
+
+  </nav>
+
+<!-- Nav Ends -->
+<section>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
+REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional. 
+El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.
+La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes. 
+La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas. 
+Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Carousel Animation -->
+<script>
+$(document).ready(function(){
+  $('.carousel').carousel({
+    interval: 5000
+  });
+});
+</script>
+
+</body>
+</html>
