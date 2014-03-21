@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grupo Reuser, S.L</title>
+  <title>Reuser, S.L</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -44,7 +44,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a href="">Reuser</a></li>
-              <li><a href="">Labomedical Products, S.L</a></li>
+              <li><a href="http://localhost:8888/reuser/reuser/laboMedical">Labomedical Products, S.L</a></li>
               <li><a href="">Meditecnical Solutions, S.L</a></li>
             </ul>
           </li>
@@ -110,7 +110,7 @@
 
 <section class="backWhite blueBottomBorder">
   <div class="container">
-    <img src="img/imgTopGrupoEmpresasBorrar.jpg" class="imgTopPage">
+    <img src="img/logoReuserPage.jpg" class="imgTopPage">
 
   </div>
 </section>    
@@ -118,7 +118,8 @@
 <div class="container">
   <ol class="breadcrumb">
       <li><a href="http://localhost:8888/reuser/reuser/">Incio</a></li>
-      <li ><a href="#" class="breadcrumsActive">Empresas del Grupo</a></li>
+      <li ><a href="http://localhost:8888/reuser/reuser/GrupoEmpresas">Empresas del Grupo</a></li>
+      <li ><a href="#" class="breadcrumsActive">Reuser, S.L</a></li>
     </ol>
 
   <aside class="col-md-3">
@@ -135,7 +136,7 @@
           <div class="panel-body">
             <ul>
               <li><a href="">Reuser, S.L</a></li>
-              <li><a href="">Labomedical Products, S.L</a></li>
+              <li><a href="http://localhost:8888/reuser/reuser/laboMedical">Labomedical Products, S.L</a></li>
               <li><a href="">Meditecnical Solutions, S.L</a></li>
             </ul>
           </div>
@@ -175,16 +176,16 @@
   <section class="resumenGrupo col-md-9">
     <header>
       <h1>
-Bienvenido al Grupo Reuser
+Bienvenido a Reuser, S.L
       </h1>
     </header>
     <article>
-      <p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
-    REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
-    <p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
-    <p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
-    <p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
-    <p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
+      <p>REUSER es la empresa originaria del grupo conocida como distribuidora en los sectores Hospitalario (fungible y equipamiento médico) y Farmacéutico (principios activos, genéricos y especialidades).</p>
+<p>Una de las señas de identidad de REUSER es su vertiente como distribuidor a nivel nacional de los productos de la firma RÜSCH GMBH, líder en el sector de Anestesia y Urología, perteneciente a la multinacional TELEFLEX MEDICAL.</p>
+<p>La actividad de REUSER no sólo se ha ceñido al mercado de la distribución sanitaria nacional sino que, desde sus comienzos, se ha definido también como una empresa de notable orientación exportadora, encontrando en los mercados europeos, asiáticos y latinoamericanos sus principales clientes.
+El dinamismo y proyección empresarial de REUSER le ha llevado a introducirse en el sector de la alta cosmética desarrollando, con las pertinentes autorizaciones sanitarias, un nuevo y revolucionario producto, de origen vegetal, dirigido a la belleza y cuidado de la piel: CERAMIDAS E + F PLUS®
+REUSER ha asumido como misión empresarial ofrecer el mejor servicio en el menor tiempo posible, procurando satisfacer en todo momento los niveles de calidad exigibles en la distribución de su amplia gama de productos. Es por ello que el método de trabajo de REUSER se ve continuamente sometido a un proceso de mejora e innovación con el propósito de alcanzar la meta de la excelencia en cada uno de los procesos que forman parte de la actividad empresarial.
+</p>
   </article>
   </section>
 </div>
