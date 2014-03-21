@@ -34,7 +34,7 @@
 
       <!-- Nav Starts -->
 
-      <nav class="navbar">
+      <nav class="navbar-static-top navbar-default" role="navigation">
 
         <div class="container">
           <ul class="nav">
@@ -360,6 +360,28 @@ $(document).ready(function(){
     interval: 5000
   });
 });
+</script>
+<!--FIX NAV TO TOP WHEN SCROLLING-->
+<script type="text/javascript">
+var max_scroll = 100; // this is the scroll position to start positioning the nav in a fixed way
+$(document).ready(function(){
+
+        $(window).scroll(function () {
+        var navbar = $(".navbar-static-top");
+
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop > max_scroll && !navbar.is(".navbar-static-top-fixed")) {
+                navbar.addClass("navbar-static-top-fixed");
+                // console.log("go floated");
+        }
+        else if(scrollTop < max_scroll && navbar.is(".navbar-static-top-fixed") ) {
+                // console.log("return to normal");
+                navbar.removeClass("navbar-static-top-fixed");
+        }
+
+});
+});
+
 </script>
 
 </body>

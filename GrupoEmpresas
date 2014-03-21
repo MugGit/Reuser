@@ -34,7 +34,7 @@
 
       <!-- Nav Starts -->
 
-      <nav class="navbar">
+      <nav class="navbar-static-top navbar-default" role="navigation">
 
         <div class="container">
           <ul class="nav">
@@ -110,13 +110,40 @@
   </nav>
 
 <!-- Nav Ends -->
-<section>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
-REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional. 
-El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.
-La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes. 
-La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas. 
-Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.
+<div class="container backWhite">
+  <aside class="sidebarLeftPag span3">
+<h2>Grupo Empresas</h2>
+<ul>
+<li><a href="">Reuser, S.L</a></li>
+<li><a href="">Labomedical Products, S.L.</a></li>
+<li><a href="">Meditécnica Solutions, S.L.</a></li>
+</ul>
+</aside>
+<section class="resumenGrupo span9"><p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
+REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
+<p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
+<p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
+<p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
+<p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
 </section>
+
+<section class="resumenGrupo span9"><p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
+REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
+<p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
+<p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
+<p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
+<p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
+</section>
+
+<section class="resumenGrupo span9"><p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
+REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
+<p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
+<p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
+<p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
+<p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
+</section>
+
+</div>
 
 
 
@@ -167,6 +194,28 @@ $(document).ready(function(){
     interval: 5000
   });
 });
+</script>
+<!--FIX NAV TO TOP WHEN SCROLLING-->
+<script type="text/javascript">
+var max_scroll = 100; // this is the scroll position to start positioning the nav in a fixed way
+$(document).ready(function(){
+
+        $(window).scroll(function () {
+        var navbar = $(".navbar-static-top");
+
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop > max_scroll && !navbar.is(".navbar-static-top-fixed")) {
+                navbar.addClass("navbar-static-top-fixed");
+                // console.log("go floated");
+        }
+        else if(scrollTop < max_scroll && navbar.is(".navbar-static-top-fixed") ) {
+                // console.log("return to normal");
+                navbar.removeClass("navbar-static-top-fixed");
+        }
+
+});
+});
+
 </script>
 
 </body>

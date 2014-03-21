@@ -4535,6 +4535,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-static-top {
+
   z-index: 1000;
   border-width: 0 0 1px;
 }
@@ -4787,7 +4788,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: rgb(37,55,132);
   border-color: #e7e7e7;
 }
 
@@ -7419,3 +7420,11 @@ footer h3{
 .glyphicon{
   margin-right:1em;
 }
+.table{
+  display: table;
+}
+.tableCell{
+  display: table-cell;
+}
+.sidebarLeftPag{background-color: rgba(37,55,132,0.5);}
+.navbar-static-top-fixed{position: fixed;top: 0;width: 100%;}
