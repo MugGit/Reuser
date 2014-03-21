@@ -4991,12 +4991,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 
-.breadcrumb {
+/*.breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: transparent;
   border-radius: 4px;
+}*/
+.breadcrumb {
+padding: 2em 1em 0;
+margin-bottom: 0.1em;
+list-style: none;
 }
 
 .breadcrumb > li {
@@ -7426,5 +7431,16 @@ footer h3{
 .tableCell{
   display: table-cell;
 }
-.sidebarLeftPag{background-color: rgba(37,55,132,0.5);}
+
 .navbar-static-top-fixed{position: fixed;top: 0;width: 100%;}
+.imgTopPage{width: 100%;}
+.resumenGrupo{padding-top: 1em;}
+.breadcrumb a:hover{text-decoration: none;}
+.breadcrumb a{color: rgb(37,55,312);}
+.breadcrumsActive{background-color: transparent;
+ color: rgba(0,0,0,0.5)!important;
+}
+.panel-group {
+margin-top: 2.5em;
+}
+.paddingBottom2{padding-bottom: 2em;}
