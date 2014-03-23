@@ -87,27 +87,27 @@
         </li><!End li Productos-->
 
         <li class="dropdown"><a href="" title="Marcas" class="dropdown-toggle" data-toggle="dropdown">Marcas
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li class="dropdown-submenu"><a href="">División Médica</a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-submenu">Farmaceuticas y Genericos
-                <ul class="dropdown-menu">
-                  <li><a href="">Marca 1</a></li>
-                  <li><a href="">Marca 2</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>    
-      <li class="navContacto"><a href="">Contacto</a></li>
-    </ul><!--End Ul Nav-->
-  </div><!--End container-->
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu"><a href="">División Médica</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">Farmaceuticas y Genericos
+                  <ul class="dropdown-menu">
+                    <li><a href="">Marca 1</a></li>
+                    <li><a href="">Marca 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>    
+        <li class="navContacto"><a href="">Contacto</a></li>
+      </ul><!--End Ul Nav-->
+    </div><!--End container-->
 
 
-</nav>
+  </nav>
 
 <!-- Nav Ends -->
 <section class="backWhite blueBottomBorder">
@@ -316,34 +316,37 @@
       </div>
     </form>
   </ul>
-  <div class="col-md-4">
+  <ul class="col-md-4">
     <header>
       <h3>Datos de Interes</h3>
     </header>
+    <li>
+      <ul class="contacto">
+        <li class="col-sm-6"><span class="glyphicon glyphicon-phone-alt "></span>Teléfono</li>
+        <li class="col-sm-6">91 636 99 96</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="contacto">
+        <li class="col-sm-6"><span class="glyphicon glyphicon-envelope "></span>Reuser, S.L</li>
+        <li class="col-sm-6"><a href="mailto:reuser@reusersl.com?Subject=Consulta desde la web" target="_top">
+          reuser@reusersl.com</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul class="contacto">
+          <li class="col-sm-6"><span class="glyphicon glyphicon-envelope "></span>Labomedical</li>
+          <li class="col-sm-6"><a href="mailto:labomedical@labomedicalproducts.com?Subject=Consulta desde la web" target="_top">
+            labomedical@labomedicalproducts.com</a></li>
+          </ul>
+        </li>
+        <li class="col-sm-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3031.9072472556672!2d-3.9002342000000003!3d40.5436383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4182ceb3569823%3A0xd4fec3ac922110c6!2sCalle+Chile%2C+10!5e0!3m2!1ses!2ses!4v1395066678430" width="100%" frameborder="0" style="border:0"></iframe>
+        </li>
+      </ul>
 
-
-    <address>
-      <strong>Reuser, S.L</strong><br>
-      <a href="mailto:reuser@reusersl.com?Subject=Consulta desde la web Reuser" target="_top">reuser@reusersl.com</a>
-    </address>
-    <address>
-      <strong>Labomedical Products, S.L</strong><br>
-      <a href="mailto:labomedical@labomedicalproducts.com?Subject=Consulta desde la web Labomedical" target="_top">labomedical@labomedicalproducts.com</a>
-    </address>
-
-    <address>
-      <strong>Grupo Reuser, S.L</strong><br>
-      C/ Chile, 10 - Oficina 43<br>
-      28290 Las Rozas - Madrid<br>
-      <abbr title="Phone">T:</abbr> +34 91 636 99 96
-    </address>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3031.9072472556672!2d-3.9002342000000003!3d40.5436383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4182ceb3569823%3A0xd4fec3ac922110c6!2sCalle+Chile%2C+10!5e0!3m2!1ses!2ses!4v1395066678430" width="100%" frameborder="0" style="border:0"></iframe>
-
-
-
+    </ul>
   </div>
-</div>
 </footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -363,20 +366,20 @@ $(document).ready(function(){
 var max_scroll = 100; // this is the scroll position to start positioning the nav in a fixed way
 $(document).ready(function(){
 
-  $(window).scroll(function () {
-    var navbar = $(".navbar-static-top");
+        $(window).scroll(function () {
+        var navbar = $(".navbar-static-top");
 
-    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    if(scrollTop > max_scroll && !navbar.is(".navbar-static-top-fixed")) {
-      navbar.addClass("navbar-static-top-fixed");
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop > max_scroll && !navbar.is(".navbar-static-top-fixed")) {
+                navbar.addClass("navbar-static-top-fixed");
                 // console.log("go floated");
-              }
-              else if(scrollTop < max_scroll && navbar.is(".navbar-static-top-fixed") ) {
+        }
+        else if(scrollTop < max_scroll && navbar.is(".navbar-static-top-fixed") ) {
                 // console.log("return to normal");
                 navbar.removeClass("navbar-static-top-fixed");
-              }
+        }
 
-            });
+});
 });
 
 </script>
