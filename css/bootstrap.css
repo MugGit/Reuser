@@ -4390,6 +4390,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .tab-content > .tab-pane {
   display: none;
+  background-color: rgb(255,255,255);
 }
 
 .tab-content > .active {
