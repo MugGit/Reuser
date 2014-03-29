@@ -520,7 +520,9 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
 
   // COLLAPSE PUBLIC CLASS DEFINITION
   // ================================
-
+  // 
+  
+  
   var Collapse = function (element, options) {
     this.$element      = $(element)
     this.options       = $.extend({}, Collapse.DEFAULTS, options)
@@ -622,6 +624,8 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
   Collapse.prototype.toggle = function () {
     this[this.$element.hasClass('in') ? 'hide' : 'show']()
   }
+
+
 
 
   // COLLAPSE PLUGIN DEFINITION

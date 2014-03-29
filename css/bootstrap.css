@@ -7446,9 +7446,9 @@ footer h3{
 .breadcrumsActive{background-color: transparent;
  color: rgba(0,0,0,0.5)!important;
 }
-.panel-group {
+/*.panel-group {
 margin-top: 2.5em;
-}
+}*/
 .paddingBottom2{padding-bottom: 2em;}
 .center{text-align: center; color: rgb(37,55,132);}
 .headerMarcas{padding: 2em 0;}
@@ -7462,3 +7462,4 @@ margin-top: 2.5em;
 .noRightBorder{border-right: none!important;}
 .verticalMargin{margin: 2em auto 6em;}
 .whiteText{color: rgb(255,255,255)!important;}
+.font09{font-size: 0.9em; white-space: nowrap;}
