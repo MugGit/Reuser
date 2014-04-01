@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empresas del Grupo Reuser, S.L</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+      <header>
+        <div class="container">
+          <div class="col-md-10">
+            <img src="img/logoReuser.png" alt="Grupo Reuser" class="logo">
+          </div>
+          <div class="right-sideNav col-md-2">
+            <a href="" class="english">English</a>
+            <p class="contactUsHeader">91 636 99 96</p>
+          </div>
+          
+        </div>
+        
+      </header>
+
+      <!-- Nav Starts -->
+
+      <nav class="navbar-static-top navbar-default" role="navigation">
+
+        <div class="container">
+          <ul class="nav">
+            <li class="navInicio"><a href="http://localhost:8888/reuser/reuser/">Inicio</a></li>
+            <li class="dropdown"><a href="" title="Empresas del grupo" class="dropdown-toggle  active" data-toggle="dropdown">Empresas del grupo
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="">Reuser</a></li>
+              <li><a href="">Labomedical Products, S.L</a></li>
+              <li><a href="">Meditecnical Solutions, S.L</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="" title="Productos" class="dropdown-toggle" data-toggle="dropdown">Productos
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu"><a href="">División Médica</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">Farmaceuticas y Genericos
+                  <ul class="dropdown-menu">
+                    <li><a href="">División Genéricos</a></li>
+                    <li><a href="">División Esp. Farmaceuticas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Mobiliario</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Clínico</a></li>
+                <li><a href="">Geriátrico</a></li>
+                <li><a href="">Laboratorio</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Reactivos</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Reactivo1</a></li>
+                <li><a href="">Reactivo2</a></li>
+                <li><a href="">Reactivo3</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a href="">División Cosmeticos</a>
+              <ul class="dropdown-menu">
+                <li><a href="">Ceramidas E+F Plus</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </li><!End li Productos-->
+
+        <li class="dropdown"><a href="" title="Marcas" class="dropdown-toggle" data-toggle="dropdown">Marcas
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-submenu"><a href="">División Médica</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">Farmaceuticas y Genericos
+                <ul class="dropdown-menu">
+                  <li><a href="">Marca 1</a></li>
+                  <li><a href="">Marca 2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>    
+      <li class="navContacto"><a href="">Contacto</a></li>
+    </ul><!--End Ul Nav-->
+  </div><!--End container-->
+</nav>
+<!-- Nav Ends -->
+
+<section class="backWhite blueBottomBorder">
+  <div class="container">
+    <img src="img/imgTopGrupoEmpresasBorrar.jpg" class="imgTopPage">
+
+  </div>
+</section>    
+<div class="backWhite paddingBottom2">
+<div class="container">
+  <ol class="breadcrumb">
+      <li><a href="http://localhost:8888/reuser/reuser/">Incio</a></li>
+      <li ><a href="#" class="breadcrumsActive">Empresas del Grupo</a></li>
+    </ol>
+
+  <aside class="col-md-3">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              Empresas del Grupo
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <ul>
+              <li><a href="http://localhost:8888/reuser/reuser/reuser">Reuser, S.L</a></li>
+              <li><a href="http://localhost:8888/reuser/reuser/laboMedical">Labomedical Products, S.L</a></li>
+              <li><a href="">Meditecnical Solutions, S.L</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+              Productos
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Marcas
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+  <section class="resumenGrupo col-md-9">
+    <header>
+      <h1>
+Bienvenido al Grupo Reuser
+      </h1>
+    </header>
+    <article>
+      <p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
+    REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
+    <p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
+    <p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
+    <p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
+    <p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
+  </article>
+  </section>
+</div>
+</div>
+
+
+
+<!--FOOTER-->
+<footer>
+  <div class="container">
+    <ul class="col-md-4">
+      <header>
+        <h3>Conócenos</h3>
+      </header>
+      <li>Grupo Empresas</li>
+      <ul>
+        <li>Reuser</li>
+        <li>Labomedical Products, S.L</li>
+        <li>Meditecnical Solutions, S.L</li>
+      </ul>
+      <li>División Médica</li>
+      <ul>
+        <li>Farmaceúticas y Genéricos</li>
+        <li>Clínico y Hospitalario</li>
+      </ul>
+      <li>División Mobiliario</li>
+      <ul>
+        <li>Clínico</li>
+        <li>Geriátrico</li>
+        <li>Laboratorio</li>
+      </ul>
+      <li>División Cosmética</li>
+      <ul>
+        <li>Ceramidas E+F Plus</li>
+      </ul>
+    </ul>
+    <ul class="col-md-4">
+     <header>
+      <h3>Contacta con nosotros</h3>
+    </header>
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label for="inputName" class="col-sm-6 control-label">Persona de contacto</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputName" placeholder="Persona de contacto">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmpresa" class="col-sm-6 control-label">Empresa</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail" class="col-sm-6 control-label">Email</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPhone" class="col-sm-6 control-label">Teléfono</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputPhone" placeholder="91 888 88 88">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputSubject" class="col-sm-6 control-label">Asunto</label>
+        <div class="col-sm-6">
+          <textarea class="form-control" rows="3" id="inputSubject" placeholder="Escribenos"></textarea>
+          
+        </div>
+      </div>
+    </form>
+  </ul>
+  <ul class="col-md-4">
+    <header>
+      <h3>Datos de Interes</h3>
+    </header>
+    <li>
+      <ul class="contacto">
+        <li class="col-sm-6"><span class="glyphicon glyphicon-phone-alt "></span>Teléfono</li>
+        <li class="col-sm-6">91 636 99 96</li>
+      </ul>
+    </li>
+    <li>
+      <ul class="contacto">
+        <li class="col-sm-6"><span class="glyphicon glyphicon-envelope "></span>Reuser, S.L</li>
+        <li class="col-sm-6"><a href="mailto:reuser@reusersl.com?Subject=Consulta desde la web" target="_top">
+          reuser@reusersl.com</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul class="contacto">
+          <li class="col-sm-6"><span class="glyphicon glyphicon-envelope "></span>Labomedical</li>
+          <li class="col-sm-6"><a href="mailto:labomedical@labomedicalproducts.com?Subject=Consulta desde la web" target="_top">
+            labomedical@labomedicalproducts.com</a></li>
+          </ul>
+        </li>
+        <li class="col-sm-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3031.9072472556672!2d-3.9002342000000003!3d40.5436383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4182ceb3569823%3A0xd4fec3ac922110c6!2sCalle+Chile%2C+10!5e0!3m2!1ses!2ses!4v1395066678430" width="100%" frameborder="0" style="border:0"></iframe>
+        </li>
+      </ul>
+
+    </ul>
+  </div>
+</footer>
+
+
+
+
+<!--FOOTER ENDS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Carousel Animation -->
+<script>
+$(document).ready(function(){
+  $('.carousel').carousel({
+    interval: 5000
+  });
+});
+</script>
+<!--FIX NAV TO TOP WHEN SCROLLING-->
+<script type="text/javascript">
+var max_scroll = 100; // this is the scroll position to start positioning the nav in a fixed way
+$(document).ready(function(){
+
+  $(window).scroll(function () {
+    var navbar = $(".navbar-static-top");
+
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    if(scrollTop > max_scroll && !navbar.is(".navbar-static-top-fixed")) {
+      navbar.addClass("navbar-static-top-fixed");
+                // console.log("go floated");
+              }
+              else if(scrollTop < max_scroll && navbar.is(".navbar-static-top-fixed") ) {
+                // console.log("return to normal");
+                navbar.removeClass("navbar-static-top-fixed");
+              }
+
+            });
+});
+
+</script>
+
+</body>
+</html>

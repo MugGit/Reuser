@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Empresas del Grupo Reuser, S.L</title>
+  <title>Especialidades Farmaceuticas</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 
         <div class="container">
           <ul class="nav">
-            <li class="navInicio active"><a href="#">Inicio</a></li>
+            <li class="navInicio"><a href="#">Inicio</a></li>
             <li class="dropdown"><a href="GrupoEmpresas.html" title="Empresas del grupo" class="dropdown-toggle" >Empresas del grupo
               <b class="caret"></b>
             </a>
@@ -50,7 +50,7 @@
             </ul>
           </li>
 
-          <li class="dropdown"><a href="" title="Productos" class="dropdown-toggle" data-toggle="dropdown">Productos
+          <li class="dropdown active"><a href="" title="Productos" class="dropdown-toggle" data-toggle="dropdown">Productos
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
@@ -119,7 +119,7 @@
         </a>
         <ul class="dropdown-menu">
           <li><a href="">Medicamentos</a></li>
-          <li><a href="">División Médica</a></li>  
+          <li><a href="marcas.html#reactivos">División Médica</a></li>  
           <li><a href="">División Laboratorio</a></li>
           <li><a href="">División Mobiliario</a></li>
           <li><a href="">División Cosmética</a></li>  
@@ -134,20 +134,23 @@
 
 </nav>
 
-<section class="backWhite blueBottomBorder">
+<div class="backWhite">
   <div class="container">
-    <img src="img/imgTopGrupoEmpresasBorrar.jpg" class="imgTopPage">
-
+    <header class="headerMarcas">
+      <h1 class="center">Especialidades Farmaceúticas</h1>
+      <h2 class="center">Los laboratorios nacionales CINFA y LDP TORLAN son los principales proveedores de especialidades farmaceúticas del Grupo Reuser en su distribución a nivel internacional.</h2>
+    </header> 
   </div>
-</section>    
-<div class="backWhite paddingBottom2">
+</div> <!--CONTAINER ENDS--> 
+
+<div class="paddingBottom2">
   <div class="container">
     <ol class="breadcrumb">
       <li><a href="http://localhost:8888/reuser/reuser/">Incio</a></li>
       <li ><a href="#" class="breadcrumsActive">Empresas del Grupo</a></li>
     </ol>
     <!--SIDEBAR STARTS-->
-    <aside class="col-md-3">
+    <aside class="col-md-3 backWhite">
 
       <!--ACCORDION STARTS-->
 
@@ -203,7 +206,7 @@
                             <div id="collapseInnerOneInner" class="accordion-body collapse">
                               <div class="accordion-inner font09">
                                 <ul>
-                                <li><a href="">Grupos Terapeúticos</a></li>
+                                <li><a href="" class="active">Grupos Terapeúticos</a></li>
                                 <li><a href="">Parafarmácia</a></li>
                                 <li><a href="">Ortopedia</a></li>
                                 </ul>
@@ -373,16 +376,32 @@
     <section class="resumenGrupo col-md-9">
       <header>
         <h1>
-          Empresas del Grupo
+          Especialidades Farmaceúticas
         </h1>
       </header>
       <article>
-        <p>Hace más de diez años que REUSER emprendió su andadura, como grupo empresarial, dedicado a la fabricación y distribución de productos relacionados con la salud, centrándose fundamentalmente en los sectores farmacéutico y hospitalario.
-          REUSER, S.L., LABOMEDICAL PRODUCTS, S.L. y MEDITÉCNICA SOLUTIONS, S.L. son las empresas desde las cuales el grupo desarrolla su actividad en el ámbito de la distribución sanitaria, tanto a nivel nacional como internacional.</p> 
-          <p>El continuo espíritu de superación y mejora del know-how de todo el equipo que ha formado parte del GRUPO REUSER, ha servido para ganarse la confianza profesional de instituciones, tanto públicas como privadas del sector sanitario español y foráneo, con las que ha trabajado. Este bagaje empresarial ha hecho que el GRUPO REUSER atesore un profundo conocimiento del mercado, dotándole de una posición privilegiada a la hora de desempeñar su actividad.</p>
-          <p>La misión corporativa del GRUPO REUSER es atender, con rapidez y pulcritud, la distribución de productos sanitarios de alta calidad, ofreciendo un servicio integral y personal acorde con las necesidades de cada uno de sus clientes.</p> 
-          <p>La preocupación por los temas sociales y ambientales también forma parte de la idiosincrasia del GRUPO REUSER, manifestando un claro interés por llevar a la práctica los principios básicos de la responsabilidad corporativa declarados en el Pacto Mundial de Naciones Unidas.</p>
-          <p>Desde este nuevo horizonte, el GRUPO REUSER se propone actuar bajo un nuevo paradigma empresarial, con la intención de alcanzar el mayor reconocimiento de sus clientes, proveedores, competidores, inversores, trabajadores y sociedad en general, como una empresa al servicio de la salud.</p>
+        <ul>
+          <li>Grupos Terapeúticos</li>
+            <ul>
+              <li>Aparato Digestivo y Metabolismo</li>
+              <li>Aparato Respiratorio</li>
+              <li>Sangre y Organos Hematopoyeticos</li>
+              <li>Aparato Cardiovascular</li>
+              <li>Terapia Dermatológica</li>
+              <li>Terapia Genitourinaria (Incl. Hormonas Sexuales)</li>
+              <li>Terapia Hormonal</li>
+              <li>Terapia Antiinfecciosa, uso sistémico</li>
+              <li>Terapia Antineoplásica y Agentes Inmonomoduladores</li>
+              <li>Aparato Locomotor</li>
+              <li>Sistema Nervioso</li>
+              <li>Antiparasitarios, Insecticidas y Repelentes</li>
+              <li>Organos de los Sentidos</li>
+              <li>Varios</li>
+              <li>Dietoterápicos y Nutrición Enteral</li>
+            </ul>
+
+
+        </ul>
         </article>
       </section>
     </div>
@@ -536,6 +555,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/miJs.js"></script>
   
   <!--FIX NAV TO TOP WHEN SCROLLING-->
   <script type="text/javascript">
