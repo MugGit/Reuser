@@ -7312,7 +7312,7 @@ margin: 0.4em 0 0;
     transition: all 0.4s ease-in-out;
 }
 .ch-img-1 { 
-    background-image: url(../img/edifReuser.jpg);
+    background-image: url(../img/pildoras.jpg);
 }
  
 .ch-img-2 { 
@@ -7320,10 +7320,10 @@ margin: 0.4em 0 0;
 }
  
 .ch-img-3 { 
-    background-image: url(../img/mobiliarioQue.jpg);
+    background-image: url(../img/lab.jpg);
 }
 .ch-img-4 { 
-    background-image: url(../img/ceramidas.jpg);
+    background-image: url(../img/furniture.jpg);
 }
 .ch-info {
     position: absolute;
@@ -7519,6 +7519,13 @@ width: 84%;
 margin-bottom: 7px;
 text-align: left;
 }
+
+footer #formulario input, footer textarea{
+  width: 82%;
+}
+footer label{width: 14%;}
+
+footer #boton{margin: 1em 18%;}
  
 
 

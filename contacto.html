@@ -80,21 +80,10 @@
             </li>
             <li class="dropdown-submenu"><a href="">División Laboratorio</a>
               <ul class="dropdown-menu">
-                <li><a href="">Reactivos Químicos</a></li>
-                <li><a href="">Reactivos Bioqúimicos</a></li>
-                <li class="dropdown-submenu"><a href="">Reactivos Microbiológicos</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="">Material Biológico</a></li>
-                    <li><a href="">Biología Celular</a></li>
-                    <li><a href="">Química de Proteinas</a></li>
-                    <li><a href="">Biología Molecular</a></li>
-                    <li><a href="">Microarrays</a></li>
-                    <li><a href="">Anticuerpos</a></li>
-                  </ul>
-                </li>
-                <li><a href="">Material Laboratorio</a></li>
-                <li><a href="">Instrumentos Laboratorio</a></li>
-                <li><a href="">Laboratorio Clínico</a></li>
+                <li><a href="divisionLaboratorio.html#reactivos">Reactivos</a></li>
+                <li><a href="divisionLaboratorio.html#matLaboratorio">Material Laboratorio</a></li>
+                <li><a href="divisionLaboratorio.html#instLaboratorio">Instrumentos Laboratorio</a></li>
+                <li><a href="divisionLaboratorio.html#labClinico">Laboratorio Clínico</a></li>
               </ul>
             </li>
             <li class="dropdown-submenu"><a href="">División Mobiliario</a>
@@ -204,65 +193,227 @@
       <header>
         <h3>Conócenos</h3>
       </header>
-      <li>Grupo Empresas</li>
-      <ul>
-        <li>Reuser</li>
-        <li>Labomedical Products, S.L</li>
-        <li>Meditecnical Solutions, S.L</li>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Empresas del Grupo
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul>
+                <li><a href="reuser.html">Reuser, S.L</a></li>
+                <li><a href="laboMedical.html">Labomedical Products, S.L</a></li>
+                <li><a href="meditecnicalSolutions.html">Meditecnical Solutions, S.L</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--CollapseTwo-->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                Productos
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div class="accordion-inner">
+
+                <!-- Here we insert another nested accordion -->
+
+                <div class="accordion" id="accordion2">
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerOne">
+                        Medicamentos
+                      </a>
+                    </div>
+                    <div id="collapseInnerOne" class="accordion-body collapse">
+                      <div class="accordion-inner">
+                        <div class="accordion-group">
+                          <div class="accordion-heading">
+                            <ul>
+                            <li><a  class="accordion-toggle font09" data-toggle="collapse" data-parent="#collapseInnerOne" href="#collapseInnerOneInner">
+                              Especialidades Farmaceuticas
+                            </a></li>
+                            <div id="collapseInnerOneInner" class="accordion-body collapse">
+                              <div class="accordion-inner font09">
+                                <ul>
+                                <li><a href="EspecialidadesFarmaceuticas.html#terapeuticos">Grupos Terapeúticos</a></li>
+                                <li><a href="EspecialidadesFarmaceuticas.html#parafarmacia">Parafarmácia</a></li>
+                                <li><a href="EspecialidadesFarmaceuticas.html#ortopedia">Ortopedia</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <li><a href="genericos.html"class="font09">Genéricos</a></li>
+                          </ul>
+                          </div>  
+                        
+                        </div> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerTwo">
+                        División Médica
+                      </a>
+                    </div>
+                    <div id="collapseInnerTwo" class="accordion-body collapse">
+                      <div class="accordion-inner font09">
+                        <ul>
+                          <li><a href="divisionMedica.html#hospitalario">Equip. Hospitalario</a></li>
+                          <li><a href="divisionMedica.html#diagnostico">Diagnóstico</a></li>
+                          <li><a href="divisionMedica.html#electromedicina">Electromedicina</a></li>
+                          <li><a href="divisionMedica.html#fungible">Material Fungible</a></li>
+                          <li><a href="divisionMedica.html#quirurjico">Inst. Quirurjico</a></li>
+                          <li><a href="rehabilitacionYFisioterapia.html">Rehabilitacion y Fisioterapia</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerThree">
+                        División Laboratorio
+                      </a>
+                    </div>
+                    <div id="collapseInnerThree" class="accordion-body collapse">
+                      <div class="accordion-inner">
+                        <ul>
+                          <li><a href="divisionLaboratorio.html#reactivos">Reactivos</a></li>
+                          <li><a href="divisionLaboratorio.html#matLaboratorio">Material Laboratorio</a></li>
+                          <li><a href="divisionLaboratorio.html#instLaboratorio">Instrumentos Laboratorio</a></li>
+                          <li><a href="divisionLaboratorio.html#labClinico">Laboratorio Clínico</a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerFour">
+                    División Mobiliaria
+                  </a>
+                </div>
+                <div id="collapseInnerFour" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <ul>
+                      <li><a href="mobiliario.html#mClinico">Clínico</a></li>
+                      <li><a href="mobiliario.html#mGeriatrico">Geriátrico</a></li>
+                      <li><a href="mobiliario.html#mLaboratorio">Laboratorio</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerFive">
+                    División Cosmética
+                  </a>
+                </div>
+                <div id="collapseInnerFive" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <ul>
+                      <li><a href="http://www.reuser.es/ceramidas/index.html">Ceramidas E+F plus</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+            </div><!--END PANEL-BODY-->
+          </div><!--END PANEL-COLLAPSE COLLAPSE-->
+        </div><!--END PANEL PANEL-DEFAULT-->
+        <!--END COLLAPSE TWO-->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Marcas
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul>
+          <li><a href="">Medicamentos</a></li>
+          <li><a href="">División Médica</a></li>  
+          <li><a href="">División Laboratorio</a></li>
+          <li><a href="">División Mobiliario</a></li>
+          <li><a href="">División Cosmética</a></li>  
+        </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default font09">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                Contacto
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+              <ul class="noListStyle">
+                <li>
+                  <span class="glyphicon glyphicon-phone-alt "></span>
+                  91 636 99 96
+                </li>
+                <li>
+                  <span class="glyphicon glyphicon-envelope "></span>
+                  <a href="mailto:reuser@reusersl.com?Subject=Consulta desde la web" target="_top">Reuser, S.L</a>
+                </li>
+                <li>
+                  <span class="glyphicon glyphicon-envelope "></span>
+                  <a href="mailto:labomedical@labomedicalproducts.com?Subject=Consulta desde la web" target="_top">
+                  Labomedical Products, S.L
+                  </a>
+                </li>
+                        
+
       </ul>
-      <li>División Médica</li>
-      <ul>
-        <li>Farmaceúticas y Genéricos</li>
-        <li>Clínico y Hospitalario</li>
-      </ul>
-      <li>División Mobiliario</li>
-      <ul>
-        <li>Clínico</li>
-        <li>Geriátrico</li>
-        <li>Laboratorio</li>
-      </ul>
-      <li>División Cosmética</li>
-      <ul>
-        <li>Ceramidas E+F Plus</li>
-      </ul>
-    </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</ul>
+      <!--ACCORDION ENDS-->
     <ul class="col-md-4">
      <header>
       <h3>Contacta con nosotros</h3>
     </header>
-    <form class="form-horizontal" role="form">
-      <div class="form-group">
-        <label for="inputName" class="col-sm-6 control-label">Persona de contacto</label>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" id="inputName" placeholder="Persona de contacto">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputEmpresa" class="col-sm-6 control-label">Empresa</label>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail" class="col-sm-6 control-label">Email</label>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPhone" class="col-sm-6 control-label">Teléfono</label>
-        <div class="col-sm-6">
-          <input type="text" class="form-control" id="inputPhone" placeholder="91 888 88 88">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputSubject" class="col-sm-6 control-label">Asunto</label>
-        <div class="col-sm-6">
-          <textarea class="form-control" rows="3" id="inputSubject" placeholder="Escribenos"></textarea>
-          
-        </div>
-      </div>
-    </form>
+    <div id="textoContacto">
+     
+</div> 
+    <form id="formulario" name="formContacto" method="post" action="process.php" >
+      <label for="nombre">Nombre*:</label>
+      <input name="name" placeholder="Introduce tu hombre" class="required" /><br />
+                 
+      <label for="empresa">Empresa*:</label>
+      <input name="company" placeholder="¿Para quién trabajas?" class="required" /><br />
+    
+      <label for="telefono">Teléfono:</label>
+      <input name="phone" placeholder="¿Hablamos?" /><br />
+        
+      <label for="mail">E-mail*:</label>
+      <input name="mail" placeholder="Podré contestarte" class="required" /><br />
+            
+      <label id="modif01" for="comentario">Asunto:</label>
+      <textarea id="modif02" placeholder="Escribeme tu comentario aquí" name="comment"></textarea><br />
+                    
+                                
+      <input class="botonAcceder" type="submit" id="boton" value="Enviar" />
+    </form>  
   </ul>
   <ul class="col-md-4">
     <header>
@@ -296,7 +447,8 @@
     </ul>
   </div>
 </footer>
-<!--FOOTER ENDS-->
+
+<!--END FOOTER-->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
